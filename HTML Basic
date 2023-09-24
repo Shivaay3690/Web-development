@@ -1,0 +1,322 @@
+<!--HTML Basic--->
+<--Class 1-->
+<!-- This is doctype(ctrl + /) we can write comment by shortcuts -->
+<!-- mai html ka basic code likh raha hu -->
+<!-- mera name Shivendra Patel hain -->
+<!-- Aur ye mera code_with_harry ka 1st class hain -->
+<!DOCTYPE html>
+<!--Our HTML code starts from here-->(comment)
+<html lang="en">
+    <!--Our head tags starts here-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-eqviu="X-UA-Compatible" content="ie-edge">
+    <title>This is title</title></head>
+<body>
+    yeh meri body ka content hain  
+
+</body>
+</html>
+
+<--Class 2-->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <meta name="description" content="This is description">
+    <meta name="Keywords" content="html,html tutorials,web development">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <title>title script and meta tags</title>
+    <!-- This is how you include external CSS -->
+    <link rel="stylesheet" href="harry.css">
+     <!-- This is how you include external javascript -->
+     <script src="harry.js"></script>
+   
+ </head>
+ <body>
+    <h1>My name is shivam patel<h1>
+    <h2>My name is shivam patel<h2>
+      <h3>My name is shivam patel<h3>
+
+ </body>
+ </html>
+
+<!--class 3-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heading Paragraph, and Emmet</title>
+</head>
+<body>
+    <h1>shivam</h1>
+    <h2>shivam</h2>
+    <h3>shivam</h3>
+    <h4>shivam</h4>
+    <h5>shivam</h5>
+    <p>This is shivam</p>
+    <!-- <p>This is new paragraph</p> -->
+    <!-- Lorem23 for 23 dummy text with 23 words -->
+    <p>Lorem ipsum dolor sit, amet <s>this is strong</s>consectetur adipisicing <em>this is emphasized</em> elit. 
+        Unde pariatur velit accusamus illum laboriosam sunt eum in, iure ut cum voluptas reprehenderit 
+        eaque adipisci inventore saepe, sapiente distinctio temporibus <b>this is bold</b> voluptates magni nesciunt debitis 
+        optio quos corporis. Ipsam adipisci possimus nemo!</p>
+        <p>this is <br>
+             new line</p>
+             <hr>
+    <!-- multiple paragraph tag shortcut (p*3) -->
+    <p>first </p>
+    <p>second</p>
+    <p>third</p>
+    <p>fourth</p>
+    <p>this is new paragraph</p>
+     <!-- ctrl + Enter :-for jumping new line -->
+</body>
+</html>
+
+<--Class 4-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and images</title>
+</head>
+<body>
+<1--anchor tags-->
+<br><!--for change line-->
+    <a href="https://www.google.com/"target="_blank">Go to google</a><br>
+    <a href="https://www.facebook.com/"target="_blank">Go to facebook</a><br>
+    <a href="https://www.twitter.com/"target="_blank">Go to twitter</a><br>
+    <a href="https://www.linkedin.com/"target="_blank">Go to linkedin</a><br>
+    <a href="/class_4.html" target="_blank"></a>
+    <a href="/class_5.html" target="_blank">Go to class 5</a><br>
+    <a href="https://www.youtube.com/watch?v=QN3LaIBtH6Y&ab_channel=TheDhamalMovies" target="_blank">Go to link</a><br>
+    
+    <!-- how to insert image  -->
+    <img src="shivam.jpg" alt="">
+    <img src="https://source.unsplash.com/random/?city,night" alt="remote image">
+       
+
+</body>
+</html>
+
+<--Class 5-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables and lists</title>
+    
+</head>
+<body>
+    <!-- lists -->
+
+    <ul type="circle" >
+        <li>This is first item of my unordered list</li>
+        <li>This is second item of my unordered list</li>
+        <li>This is third item of my unordered list</li>
+         
+    </ul>
+    <ol start="50">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+      </ol>
+    <ol>
+        <li>This is first item of my ordered list</li>
+        <li>This is second item of my ordered list</li>
+        <li>This is third item of my ordered list</li>
+         
+    </ol>
+    <ol type ="A">
+        <li>Coca-Cola</li>
+        <li>Ice Tea</li>
+        <li>Fanta</li>
+    </ol>
+
+      <!-- Tables -->
+    <h3>HTML Table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Name </th>
+                <th>Employee Id</th>
+                <th>Employee role </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>shivam</td>
+                <td>24</td>
+                <td>Enginner</td>
+            </tr>
+            <tr>
+                <td>shivam</td>
+                <td> 45</td>
+                <td>Programmer analyst</td>
+            </tr>
+            <tr>
+                <td>shubham</td>
+                <td> 234</td>
+                <td>Developer</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+<!--Class 6--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2>This is HTML form tutorial</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+             <input type="text" name="Myname" id="name">
+        </div>
+        <br> 
+        <label for="role">Role</label>
+       <div>
+              <input type="text" name="myRole" id="role">
+       </div>
+       <br>
+       <label for="email">Email</label>
+       <div>
+            <input type="email" name="myEmail" id="email">
+       </div>
+       <br>
+       <label for="date">Date</label>
+       <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <label for="number">Bonus</label>
+        <div>
+             <input type="number" name="mybonus" id="number">
+        </div>
+        <br>
+        <label for="checkbox">Are you eligible?</label>
+        <div>
+             <input type="checkbox" name="myeligibility" checked>
+        </div>
+        <br>
+        <label for="radio">Gender</label>
+        <div>
+          Male<input type="radio" name="mygender"> Female <input type="radio" name="mygender">
+            Other<input type="radio" name="mygender"> 
+        </div>
+        <br>
+        <label for="text">Write about yourself</label>
+        <div>
+            <textarea name="" id="" cols="30" rows="5" id="text"></textarea>
+        </div>
+        <br>
+        <div>
+          <input type="submit" value="submit Now">
+          <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>
+
+<---Class 7--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2>This is HTML form tutorial</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+             <input type="text" name="Myname" id="name">
+        </div>
+        <br> 
+        <label for="role">Role</label>
+       <div>
+              <input type="text" name="myRole" id="role">
+       </div>
+       <br>
+       <label for="email">Email</label>
+       <div>
+            <input type="email" name="myEmail" id="email">
+       </div>
+       <br>
+       <label for="date">Date</label>
+       <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <label for="number">Bonus</label>
+        <div>
+             <input type="number" name="mybonus" id="number">
+        </div>
+        <br>
+        <label for="checkbox">Are you eligible?</label>
+        <div>
+             <input type="checkbox" name="myeligibility" checked>
+        </div>
+        <br>
+        <label for="radio">Gender</label>
+        <div>
+          Male<input type="radio" name="mygender"> Female <input type="radio" name="mygender">
+            Other<input type="radio" name="mygender"> 
+        </div>
+        <br>
+        <label for="text">Write about yourself</label>
+        <div>
+            <textarea name="" id="" cols="30" rows="5" id="text"></textarea>
+        </div>
+
+        <br>
+        <div>
+          <input type="submit" value="submit Now">
+          <input type="reset" value="Reset Now">
+          
+        </div>
+        
+    </form>
+</body>
+</html>
+
+<!---Class 8--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Inline and Block elements</title>
+</head>
+<body>
+<!-- span tag jo hain wo Inline element hain(paragraph ko ek hi line me merge kr deta hain) -->
+<strong style="border:2px solid red">This is a paragraph</strong><a style="border: 2px solid blue">This is also a paragraph</a>
+    <span style="border:2px solid red">This is a span</span> <span style="border:2px solid blue">This is also a span</span>
+
+
+</body>
+</html>
+
+ 
+
